@@ -57,4 +57,10 @@ source install/setup.bash
 * ros2 run my_py_pkg thermal_monitor_node
 * ros2 run my_py_pkg health_service_node
 
+<img width="1140" height="542" alt="image" src="https://github.com/user-attachments/assets/726033cf-fa17-4a43-b145-5a9b17500eba" />
+<img width="1140" height="542" alt="image" src="https://github.com/user-attachments/assets/b8886e0c-b119-42fc-a338-9e794090cb7d" />
+<img width="1068" height="531" alt="image" src="https://github.com/user-attachments/assets/f01a275d-9e5a-41e9-bbd5-6d69e9936bf9" />
+
+
+
 
