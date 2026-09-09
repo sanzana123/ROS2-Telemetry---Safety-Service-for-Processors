@@ -1,0 +1,7 @@
+[console_scripts]
+health_service_node = my_py_pkg.health_service:main
+publisher_node_name = my_py_pkg.my_publisher:main
+py_node = my_py_pkg.my_first_node:main
+subscriber_node_name = my_py_pkg.my_subscriber:main
+thermal_monitor_node = my_py_pkg.thermal_monitor:main
+thermal_sensor_node = my_py_pkg.thermal_sensor:main

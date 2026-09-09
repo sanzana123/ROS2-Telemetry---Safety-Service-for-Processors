@@ -1,0 +1,47 @@
+[0.514s] Invoking command in '/workspace/src/my_py_pkg': PYTHONPATH=/workspace/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /workspace/build/my_py_pkg/build install --record /workspace/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data
+[0.682s] running egg_info
+[0.693s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.693s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.693s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.693s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.693s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.717s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.718s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.718s] running build
+[0.718s] running build_py
+[0.719s] copying my_py_pkg/subscriber_template.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+[0.719s] copying my_py_pkg/pubscriber_template.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+[0.719s] copying my_py_pkg/health_service.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+[0.719s] copying my_py_pkg/thermal_sensor.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+[0.719s] copying my_py_pkg/server_template.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+[0.719s] copying my_py_pkg/thermal_monitor.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+[0.719s] copying my_py_pkg/client_template.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+[0.719s] running install
+[0.724s] running install_lib
+[0.739s] copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/subscriber_template.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.739s] copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/pubscriber_template.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.740s] copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/health_service.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.740s] copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/thermal_sensor.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.740s] copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/server_template.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.740s] copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/thermal_monitor.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.740s] copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/client_template.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.740s] byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/subscriber_template.py to subscriber_template.cpython-312.pyc
+[0.740s] byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/pubscriber_template.py to pubscriber_template.cpython-312.pyc
+[0.743s] byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/health_service.py to health_service.cpython-312.pyc
+[0.743s] byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/thermal_sensor.py to thermal_sensor.cpython-312.pyc
+[0.743s] byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/server_template.py to server_template.cpython-312.pyc
+[0.743s] byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/thermal_monitor.py to thermal_monitor.cpython-312.pyc
+[0.743s] byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/client_template.py to client_template.cpython-312.pyc
+[0.743s] running install_data
+[0.744s] running install_egg_info
+[0.763s] removing '/workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.763s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.764s] running install_scripts
+[0.896s] Installing health_service_node script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[0.896s] Installing publisher_node_name script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[0.896s] Installing py_node script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[0.896s] Installing subscriber_node_name script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[0.896s] Installing thermal_monitor_node script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[0.896s] Installing thermal_sensor_node script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[0.896s] writing list of installed files to '/workspace/build/my_py_pkg/install.log'
+[0.938s] Invoked command in '/workspace/src/my_py_pkg' returned '0': PYTHONPATH=/workspace/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /workspace/build/my_py_pkg/build install --record /workspace/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data

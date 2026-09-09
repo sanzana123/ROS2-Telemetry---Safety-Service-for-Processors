@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000365] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099935] (-) TimerEvent: {}
+[0.200188] (-) TimerEvent: {}
+[0.300474] (-) TimerEvent: {}
+[0.400710] (-) TimerEvent: {}
+[0.500935] (-) TimerEvent: {}
+[0.511970] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/workspace/build/my_py_pkg/build', 'install', '--record', '/workspace/build/my_py_pkg/install.log', '--install-scripts', '$base/lib/my_py_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/my_py_pkg', 'env': {'HOSTNAME': 'moonknight-HP-Laptop-15', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/src/my_py_pkg', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/workspace/install/my_py_pkg:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/build/my_py_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/my_py_pkg/lib/python3.12/site-packages:/workspace/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.601047] (-) TimerEvent: {}
+[0.681823] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.692847] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[0.693050] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.693132] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[0.693205] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[0.693284] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[0.701160] (-) TimerEvent: {}
+[0.717080] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.718706] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.718816] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.718887] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.718941] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/subscriber_template.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.719002] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/pubscriber_template.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.719097] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/health_service.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.719212] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/thermal_sensor.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.719383] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/server_template.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.719641] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/thermal_monitor.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.719718] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/client_template.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.719882] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.724806] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.739361] (my_py_pkg) StdoutLine: {'line': b'copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/subscriber_template.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[0.739571] (my_py_pkg) StdoutLine: {'line': b'copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/pubscriber_template.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[0.740055] (my_py_pkg) StdoutLine: {'line': b'copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/health_service.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[0.740197] (my_py_pkg) StdoutLine: {'line': b'copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/thermal_sensor.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[0.740301] (my_py_pkg) StdoutLine: {'line': b'copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/server_template.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[0.740390] (my_py_pkg) StdoutLine: {'line': b'copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/thermal_monitor.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[0.740472] (my_py_pkg) StdoutLine: {'line': b'copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/client_template.py -> /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[0.740550] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/subscriber_template.py to subscriber_template.cpython-312.pyc\n'}
+[0.740685] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/pubscriber_template.py to pubscriber_template.cpython-312.pyc\n'}
+[0.743351] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/health_service.py to health_service.cpython-312.pyc\n'}
+[0.743535] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/thermal_sensor.py to thermal_sensor.cpython-312.pyc\n'}
+[0.743632] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/server_template.py to server_template.cpython-312.pyc\n'}
+[0.743714] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/thermal_monitor.py to thermal_monitor.cpython-312.pyc\n'}
+[0.743791] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/client_template.py to client_template.cpython-312.pyc\n'}
+[0.743909] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.743990] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.763194] (my_py_pkg) StdoutLine: {'line': b"removing '/workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[0.763488] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[0.764393] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.801271] (-) TimerEvent: {}
+[0.895991] (my_py_pkg) StdoutLine: {'line': b'Installing health_service_node script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.896169] (my_py_pkg) StdoutLine: {'line': b'Installing publisher_node_name script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.896276] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.896392] (my_py_pkg) StdoutLine: {'line': b'Installing subscriber_node_name script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.896478] (my_py_pkg) StdoutLine: {'line': b'Installing thermal_monitor_node script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.896540] (my_py_pkg) StdoutLine: {'line': b'Installing thermal_sensor_node script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.896692] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/my_py_pkg/install.log'\n"}
+[0.901319] (-) TimerEvent: {}
+[0.938340] (my_py_pkg) CommandEnded: {'returncode': 0}
+[0.945106] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[0.945726] (-) EventReactorShutdown: {}
