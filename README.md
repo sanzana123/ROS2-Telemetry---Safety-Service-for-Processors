@@ -1,17 +1,15 @@
-## 📌 Overview
+# 🌡️ ROS 2 Thermal & System Health Monitor
 
-**ROS 2 Telemetry Safety Service for Processors** is a distributed, multi-node software package developed in Python (`rclpy`) for real-time system safety monitoring and automated health management. 
+[![ROS 2](https://img.shields.io/badge/ROS%202-Jazzy%20%2F%20Humble-blue?logo=ros)](https://docs.ros.org/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-The architecture decouples telemetry generation, state monitoring, and system resets across three independent ROS 2 nodes communicating via Data Distribution Service (DDS) middleware primitives:
-
-- **Thermal Sensor Node (`thermal_sensor_node`)**: Simulates continuous thermal hardware telemetry by streaming floating-point temperature data to the `/temperature` topic (`std_msgs/msg/Float32`).
-- **Thermal Monitor Node (`thermal_monitor_node`)**: Subscribes to the thermal stream, evaluates data against a critical safety threshold ($75.0^\circ\text{C}$), and triggers asynchronous service dispatches upon anomaly detection.
-- **Health Service Node (`health_service_node`)**: Maintains persistent system state and hosts the `/reset_health_alarm` service server (`example_interfaces/srv/SetBool`) to process alarm clear requests.
+A lightweight, distributed system built with ROS 2 (`rclpy`) for real-time hardware thermal monitoring and state-based alarm resets.
 
 ---
 
-### 🎯 Key Engineering Highlights
+## 📌 Overview
 
-- **Decoupled Architecture**: Independent process execution with zero shared memory, ready for multi-machine deployment over DDS.
-- **Asynchronous Service Communication**: Non-blocking service client verification ensuring node responsiveness during health state resets.
-- **Robust Development Workflow**: Configured with `colcon` entry points and `--symlink-install` for rapid iteration and deployment.
+This package demonstrates decoupling hardware telemetry, critical threshold checks, and system safety services across independent ROS 2 nodes.
+
+### 🧩 Architecture at a Glance
