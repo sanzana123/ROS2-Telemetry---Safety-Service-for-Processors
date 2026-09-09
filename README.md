@@ -53,8 +53,8 @@ colcon build --packages-select my_py_pkg --symlink-install
 source install/setup.bash 
 
 # Run nodes in 3 different terminals 
-ros2 run my_py_pkg health_service_node
-ros2 run my_py_pkg thermal_monitor_node
-ros2 run my_py_pkg health_service_node
+* ros2 run my_py_pkg health_service_node
+* ros2 run my_py_pkg thermal_monitor_node
+* ros2 run my_py_pkg health_service_node
 
 
